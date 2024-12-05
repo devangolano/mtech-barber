@@ -7,7 +7,7 @@ const PricingCard = ({ title, price, features, description }) => {
     <ScrollReveal direction="up">
       <div className="bg-white rounded-2xl p-8 drop-shadow-2xl max-w-md mx-auto">
         <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-xl md:text-2xl text-center underline font-semibold font-mono text-[#FF6B00] mb-2">
+        <p className="text-xl md:text-2xl text-center  font-semibold text-[#FF6B00] mb-2">
           {description}
         </p>
         <div className="mb-6">
