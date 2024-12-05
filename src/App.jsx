@@ -19,6 +19,20 @@ function App() {
       <Pricing />
       <Contacto />
       <AnimatedFooter />
+
+      {/* Botão Flutuante do WhatsApp */}
+      <a
+        href="https://wa.link/tlex19" // Substitua pelo número do WhatsApp
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 w-16 h-16 rounded-full bg-green-500 shadow-lg flex items-center justify-center hover:scale-110 transition-transform z-50"
+      >
+        <img
+          src="https://logopng.com.br/logos/whatsapp-33.png"
+          alt="WhatsApp"
+          className="w-10 h-10"
+        />
+      </a>
     </div>
   );
 }
