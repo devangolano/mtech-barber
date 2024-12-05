@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Linkedin, Instagram, Youtube, PhoneIcon } from "lucide-react";
 import { motion } from "framer-motion";
+import logo from "../../public/logo2.png";
 
 const AnimatedFooter = () => {
   const iconAnimation = {
@@ -18,17 +19,17 @@ const AnimatedFooter = () => {
   return (
     <footer className="bg-[#1B3159] text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
-          {/* Logo */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          {/* Logo
           <div>
             <img
-              src="/logo2.png"
+              src={logo}
               alt="Logo MTECH"
               width={120}
               height={50}
               className="brightness-0 invert"
             />
-          </div>
+          </div> */}
 
           {/* Contact */}
           <div>
