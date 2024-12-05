@@ -35,7 +35,7 @@ const AnimatedFooter = () => {
             <h3 className="font-semibold mb-4">Entre em contato:</h3>
             <div className="flex gap-4">
               <motion.a
-                href="https://wa.link/5xyzbe"
+                href="https://wa.link/tlex19"
                 variants={iconAnimation}
                 target="_blank" // Abre em uma nova aba
                 rel="noopener noreferrer" // Segurança ao abrir links externos

@@ -20,7 +20,7 @@ const ContatoEquipe = () => {
           </p>
           <button className="my-6 px-6 py-3 text-center bg-[#FF6B00] text-white font-semibold rounded-full hover:bg-orange-600">
             <a
-              href="https://wa.link/5xyzbe"
+              href="https://wa.link/tlex19"
               target="_blank"
               rel="noopener noreferrer"
             >
