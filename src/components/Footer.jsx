@@ -37,6 +37,8 @@ const AnimatedFooter = () => {
               <motion.a
                 href="https://wa.link/5xyzbe"
                 variants={iconAnimation}
+                target="_blank" // Abre em uma nova aba
+                rel="noopener noreferrer" // Segurança ao abrir links externos
                 initial="initial"
                 whileHover="hover"
                 className="hover:text-green-400"
@@ -44,7 +46,9 @@ const AnimatedFooter = () => {
                 <PhoneIcon size={24} />
               </motion.a>
               <motion.a
-                href="marcaoc82@gmail.com"
+                target="_blank" // Abre em uma nova aba
+                rel="noopener noreferrer" // Segurança ao abrir links externos
+                href="mailto:marcaoc82@gmail.com" // Corrigido para o esquema de e-mail
                 variants={iconAnimation}
                 initial="initial"
                 whileHover="hover"

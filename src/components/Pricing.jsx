@@ -20,7 +20,13 @@ const PricingCard = ({ title, price, features }) => {
           ))}
         </ul>
         <button className="w-full bg-[#FF6B00] text-white rounded-full py-3 mt-8 hover:bg-[#FF8533] transition-colors">
-          Assine já!
+          <a
+            href="http://mtechbarber.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Assine já!
+          </a>
         </button>
       </div>
     </ScrollReveal>

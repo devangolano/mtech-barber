@@ -19,7 +19,13 @@ const ContatoEquipe = () => {
             planos e promoções exclusivas.
           </p>
           <button className="my-6 px-6 py-3 text-center bg-[#FF6B00] text-white font-semibold rounded-full hover:bg-orange-600">
-            Fale conosco agora
+            <a
+              href="https://wa.link/5xyzbe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fale conosco agora
+            </a>
           </button>
         </ScrollReveal>
       </div>
@@ -54,4 +60,3 @@ const ContatoEquipe = () => {
 };
 
 export default ContatoEquipe;
- 
