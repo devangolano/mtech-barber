@@ -3,7 +3,10 @@ import ScrollReveal from "./ScrollReveal";
 
 const ContatoEquipe = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between border-b-8 border-[#FF6B00] pt-12 bg-white relative">
+    <section
+      id="contacto"
+      className="flex flex-col md:flex-row items-center justify-between border-b-8 border-[#FF6B00] pt-12 bg-white relative"
+    >
       {/* Texto de chamada */}
       <div className="md:w-1/2 px-6 md:px-12">
         <ScrollReveal>

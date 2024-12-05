@@ -108,27 +108,8 @@ const AnimatedFooter = () => {
         {/* Copyright */}
         <div className="text-center text-xs mt-6 text-gray-300">
           <p>
-            © {new Date().getFullYear()} - All Rights Reserved. MTECh. Sistemas
-            Libelius -
-            <a href="#" className="hover:text-white">
-              {" "}
-              Política de Privacidade
-            </a>{" "}
-            -
-            <a href="#" className="hover:text-white">
-              {" "}
-              Termos de uso
-            </a>{" "}
-            -
-            <a href="#" className="hover:text-white">
-              {" "}
-              Contrato
-            </a>{" "}
-            -
-            <a href="#" className="hover:text-white">
-              {" "}
-              Regulamentos
-            </a>
+            © {new Date().getFullYear()} - All Rights Reserved. MTECH
+            INNOVATIONS LTDA
           </p>
         </div>
       </div>

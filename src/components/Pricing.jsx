@@ -2,11 +2,14 @@ import React from "react";
 import { Check } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
-const PricingCard = ({ title, price, features }) => {
+const PricingCard = ({ title, price, features, description }) => {
   return (
     <ScrollReveal direction="up">
-      <div className="bg-white rounded-lg p-8 shadow-lg max-w-md mx-auto">
-        <h3 className="text-2xl font-bold mb-2">{title}</h3>
+      <div className="bg-white rounded-2xl p-8 drop-shadow-2xl max-w-md mx-auto">
+        <h3 className="text-2xl font-bold">{title}</h3>
+        <p className="text-xl md:text-2xl text-center underline font-semibold font-mono text-[#FF6B00] mb-2">
+          {description}
+        </p>
         <div className="mb-6">
           <span className="text-3xl font-bold text-[#FF6B00]">R$ {price}</span>
           <span className="text-gray-600">/mês</span>
@@ -36,18 +39,22 @@ const PricingCard = ({ title, price, features }) => {
 const Pricing = () => {
   const plan = {
     title: "Mtech Premiun",
+    description: "Teste grátis por 7Dias",
     price: "249,90",
     features: [
       "Software com TODAS as funcionalidades + App",
       "Link de Agendamento",
       "Agendamento Ilimitado",
       "Profissionais Ilimitados",
-      "100 SMS*",
+      "Lembretes e Pesquisa de Satisfação Ilimitados WhatsApp",
+      "100 Notas Fiscais*",
+      "Link de Pagamento",
+      "Barbearia por Assinatura",
     ],
   };
 
   return (
-    <section className="py-12 bg-gray-900" id="pricing">
+    <section id="planos" className="py-12 bg-gray-900">
       <ScrollReveal>
         <h2 className="md:text-4xl text-xl py-3 mx-6 md:bg-gray-900 bg-orange-500 rounded-full font-bold text-white md:mb-16 mb-10 text-center">
           Plano ideal pra você

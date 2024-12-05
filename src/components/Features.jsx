@@ -59,7 +59,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-20 bg-gray-50" id="features">
+    <section className="py-20 bg-gray-50" id="sobre">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <h2 className="text-center mb-16">

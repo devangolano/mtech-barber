@@ -27,9 +27,7 @@ const Hero = () => {
               enquanto a MTECH impulsiona seu negócio.
             </p>
             <a
-              href="http://mtechbarber.com/"
-              target="_blank"
-              rel="noopener nor"
+              href="#planos"
               className="bg-[#FF6B00] text-white px-8 py-3 rounded-full text-center hover:bg-[#FF8533] transition-colors"
             >
               Plano ideial para o seu negócio
