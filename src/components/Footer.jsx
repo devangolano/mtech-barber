@@ -107,7 +107,7 @@ const AnimatedFooter = () => {
         {/* Copyright */}
         <div className="text-center text-xs mt-6 text-gray-300">
           <p>
-            © {new Date().getFullYear()} - All Rights Reserved. IGIC. Sistemas
+            © {new Date().getFullYear()} - All Rights Reserved. MTECh. Sistemas
             Libelius -
             <a href="#" className="hover:text-white">
               {" "}

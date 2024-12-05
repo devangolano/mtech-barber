@@ -44,7 +44,7 @@ const Hero = () => {
             className="relative flex md:block justify-center items-center"
           >
             <img
-              src="https://igic.com.br/wp-content/uploads/2023/11/barber-capa-imagem-01.png" // Substitua pelo caminho correto da imagem
+              src="./barber-capa-imagem-01.png" // Substitua pelo caminho correto da imagem
               alt="Homem usando celular"
               className="rounded-lg w-72  md:w-96 object-cover align-text-bottom"
             />

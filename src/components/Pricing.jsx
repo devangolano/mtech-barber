@@ -35,7 +35,7 @@ const PricingCard = ({ title, price, features }) => {
 
 const Pricing = () => {
   const plan = {
-    title: "Premiun",
+    title: "Mtech Premiun",
     price: "249,90",
     features: [
       "Software com TODAS as funcionalidades + App",
