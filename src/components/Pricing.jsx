@@ -24,7 +24,7 @@ const PricingCard = ({ title, price, features, description }) => {
         </ul>
         <button className="w-full bg-[#FF6B00] text-white rounded-full py-3 mt-8 hover:bg-[#FF8533] transition-colors">
           <a
-            href="http://mtechbarber.com/"
+            href="https://wa.link/tlex19"
             target="_blank"
             rel="noopener noreferrer"
           >
