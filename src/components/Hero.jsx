@@ -30,7 +30,7 @@ const Hero = () => {
               href="#planos"
               className="bg-[#FF6B00] text-white px-8 py-3 rounded-full text-center hover:bg-[#FF8533] transition-colors"
             >
-              Conheça nossos planos
+              Plano ideial para o seu negócio
             </a>
           </motion.div>
 
@@ -58,20 +58,6 @@ const Hero = () => {
               <span className="text-gray-700 text-sm font-medium">
                 Consulte sua agenda
               </span>
-            </motion.div>
-
-            {/* Escurecer */}
-            <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 1 }}
-              className="absolute md:bottom-2 bottom-0 right-8 left-0 flex items-center gap-2 px-4 py-1 rounded-lg shadow-lg"
-            >
-              <img
-                src="logodash.png" // Substitua pelo caminho correto da imagem
-                alt="Logo"
-                className="w-14 rounded-md"
-              />
             </motion.div>
 
             {/* Ícone 2 */}

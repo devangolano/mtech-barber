@@ -35,7 +35,7 @@ const AnimatedFooter = () => {
             <h3 className="font-semibold mb-4">Entre em contato:</h3>
             <div className="flex gap-4">
               <motion.a
-                href="https://wa.me/your-number"
+                href="https://wa.link/5xyzbe"
                 variants={iconAnimation}
                 initial="initial"
                 whileHover="hover"
@@ -44,7 +44,7 @@ const AnimatedFooter = () => {
                 <PhoneIcon size={24} />
               </motion.a>
               <motion.a
-                href="mailto:contact@example.com"
+                href="marcaoc82@gmail.com"
                 variants={iconAnimation}
                 initial="initial"
                 whileHover="hover"

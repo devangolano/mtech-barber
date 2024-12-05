@@ -29,7 +29,7 @@ const PricingCard = ({ title, price, features }) => {
 
 const Pricing = () => {
   const plan = {
-    title: "One",
+    title: "Premiun",
     price: "249,90",
     features: [
       "Software com TODAS as funcionalidades + App",
@@ -44,7 +44,7 @@ const Pricing = () => {
     <section className="py-12 bg-gray-900" id="pricing">
       <ScrollReveal>
         <h2 className="md:text-4xl text-xl py-3 mx-6 md:bg-gray-900 bg-orange-500 rounded-full font-bold text-white md:mb-16 mb-10 text-center">
-          Conheça Nosso Plano
+          Plano ideal pra você
         </h2>
       </ScrollReveal>
       <div className="container mx-auto px-4">
@@ -61,7 +61,7 @@ const Pricing = () => {
               <br />7 DIAS DE GARANTIA ASSEGURADOS.
             </p>
             <p className="text-gray-400 text-md">
-              Se não estiver satisfeito com o IGIC Barber, basta solicitar o
+              Se não estiver satisfeito com o MTECH Barber, basta solicitar o
               estorno.
             </p>
           </div>
